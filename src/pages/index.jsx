@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react";
+import CardRestaurants from "../components/CardRestaurants";
 
-function Restaurants() {
+export default function Restaurants() {
   return (
-    <div>Restaurants</div>
-  )
+    <div>
+      <CardRestaurants></CardRestaurants>
+    </div>
+  );
 }
-export default Restaurants
